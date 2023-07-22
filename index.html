@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Button Clicker</title>
+</head>
+
+<body>
+    <div id="container">
+        <div class="navbar">
+            <ul class="nav-box">
+                <li class="nav-links">
+                    <h1>Dojornary</h1>
+                </li>
+                <li>
+                    <input type="text" placeholder="Search">
+                </li>
+                <li><button class="btn" onclick="disappear(this)">Login</button>
+                </li>
+            </ul>
+        </div>
+        <div class="flex-display-style">
+            <div class="entries">
+                <div class="box">
+                    <div class="box-a">
+                        <div class="col1">
+                            <h1>ninja</h1>
+                            <h3>noun</h3>
+                            <h4>Plural: ninjas
+                            </h4>
+                            <button class="btn-yellow" onclick="like('#like1')"><span id="like1">13</span>likes</button>
+                        </div>
+                        <div class="box-b">
+                            <div class="col2">
+                                <p>A practitioner skilled in the art of ninja blah</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-a">
+                        <div class="col1">
+                            <h1>ninja</h1>
+                            <h3>noun</h3>
+                            <h4>Plural: ninjas</h4>
+                            <button class="btn-yellow" onclick="like('#like2')"><span id="like2">37</span>likes</button>
+                            <!--                        
+                        <button onclick="turnOff(this)">13 likes</button> -->
+                        </div>
+                        <div class="box-b">
+                            <div class="col2">
+                                <p>A practitioner skilled in the art of ninja blah</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col3">
+                <h1>Definition</h1>
+                <h3>Dojonary is
+                    <br> defined by YOU! <button class="btn-grn">Add Definition</button>
+                </h3>
+            </div>
+        </div>
+</body>
+
+</html>

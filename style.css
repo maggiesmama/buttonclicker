@@ -1,0 +1,123 @@
+
+* {
+    border: 1px solid green;
+    padding: 0;
+    margin: 0;
+    margin: 0 auto;
+}
+
+#container {
+    background-color: pink;
+    margin: 0 auto;
+    width: 1000px;
+    height: 800px;
+    border-left: solid 2px black;
+    border-right: solid 2px black;
+    /* display: flex */
+}
+
+.navbar {
+    /* display:flex; */
+    background-color: lightgray;
+    height: 50px;
+    padding: 15px;
+    margin: 0px 50px;
+}
+
+.nav-box {
+    /* background-color: yellow; */
+    display: flex;
+    list-style-type: none;}
+
+.nav-links {
+    /* background-color: cornflowerblue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box {
+    background-color: plum;
+    /* border: solid 1px black; */
+    /* width: fit-content; */
+    margin: 20px;
+    padding: 20px;
+    width: 600px;
+    display: flex;
+    /* justify-content: left; */
+
+}
+ .col1 {
+    background-color: darkorange;
+    /* width: 450px; */
+    /* justify-content: start; */
+ }
+
+ .col2 {
+    background-color: darkkhaki;
+    margin-bottom: 20px;
+    /* justify-content: center; */
+    flex-direction: column;
+ }
+
+ .col3 {
+    background-color: blanchedalmond;
+    border: solid 2px black;
+    width: 250px;
+    height: 75px;
+    margin: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 80px;
+ }
+
+ .flex-display-style {
+display: flex;
+margin: 20px;
+ }
+
+ .row2 {
+    /* background-color: crimson; */
+    justify-content: center;
+ }
+
+ .btn-grn {
+    background-color: mediumseagreen;
+    display: flex;
+    justify-content: center;
+    padding: 5px 15px;
+    margin-top: 30px;
+ }
+
+ .btn-yellow {
+    background-color: yellow;
+    padding: 10px 15px;
+    margin: 15px;
+ }
+
+.h1 .h2 .h3 .h4 .p {
+    padding: 15px;
+}
+
+
+.border {
+    /* border: solid 2px black; */
+    justify-content: left;
+    background-color: aqua;
+    
+}
+
+/* .box-a .box-b {
+    display: flex;
+} */
+
+.box-a {
+    display: flex;
+}
+.box-b {
+    display: flex;
+}
+/* .p {
+    flex-direction: column;
+} */
